@@ -5,13 +5,6 @@ git commit -m "mensagem do commit"
 git push
 
 
-
-Problema:
-Você trabalha em um sistema que precisa verificar se todas as senhas digitadas
-por usuários são válidas.
-
-Para uma senha ser válida, ela deve ter pelo menos 6 caracteres.
----
 # Método 5Q's para montar um algorítimo:
 
 Analise criticamente o problema e descubra:
@@ -19,22 +12,12 @@ Analise criticamente o problema e descubra:
 informações/investigue mais até você compreender completamente o problema.)
 
 1. Quais são os dados de entrada necessários?
-- senha
 
 2. O que devo fazer com estes dados?
-- verificar se possui no mínimo 6 caracteres
 
 3. Quais são as restrições deste problema?
-- é obrigatório informar uma senha
-- a senha deve possuir no mínimo 6 caracteres
 
 4. Qual é o resultado esperado?
-- se a senha informada tiver menos que 6 caracteres, não permitir o uso
-- se a senha informada tiver 6 ou mais caracteres, permitir o uso
 
 5. Qual é a sequência de passos a ser feita para chegar ao resultado esperado?
 (pseudocódigo)
-- receber a senha
-- verificar se ela possui no mínimo 6 caracteres
-- se possuir, permitir o cadastro
-- se não possuir, não permitir o cadastro
